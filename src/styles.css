@@ -1,0 +1,27 @@
+@import url("https://grab-ui.netlify.app/components/grab-ui.css");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.app-header {
+  text-align: center;
+}
+
+.app-body {
+  margin: 0rem 2rem 0rem 2rem;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.theme {
+  display: block;
+  /* margin: 0.8rem; */
+  float: right;
+}
